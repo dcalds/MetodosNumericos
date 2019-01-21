@@ -26,7 +26,7 @@ def gaussS(A,b):
 
             X = []
 
-            for i in range(n):
+            for a in range(n):
                 X.append(abs(x[a] - xo[a]))
 
             if max(X) < e:
